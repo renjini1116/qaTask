@@ -1,0 +1,94 @@
+[
+    {
+        "_index": "kibana_sample_data_ecommerce",
+        "_id": "1yIb3oMBceP5pM93vxkn",
+        "_score": 1,
+        "_source": {
+            "category": [
+                "Women's Accessories",
+                "Men's Clothing"
+            ],
+            "currency": "EUR",
+            "customer_first_name": "Jackson",
+            "customer_full_name": "Jackson Hopkins",
+            "customer_gender": "MALE",
+            "customer_id": 13,
+            "customer_last_name": "Hopkins",
+            "customer_phone": "",
+            "day_of_week": "Tuesday",
+            "day_of_week_i": 1,
+            "email": "jackson@hopkins-family.zzz",
+            "manufacturer": [
+                "Oceanavigations",
+                "Low Tide Media"
+            ],
+            "order_date": "2022-10-18T13:10:34+00:00",
+            "order_id": 567356,
+            "products": [
+                {
+                    "base_price": 49.99,
+                    "discount_percentage": 0,
+                    "quantity": 1,
+                    "manufacturer": "Oceanavigations",
+                    "tax_amount": 0,
+                    "product_id": 13525,
+                    "category": "Women's Accessories",
+                    "sku": "ZO0319503195",
+                    "taxless_price": 49.99,
+                    "unit_discount_amount": 0,
+                    "min_price": 24.5,
+                    "_id": "sold_product_567356_13525",
+                    "discount_amount": 0,
+                    "created_on": "2016-12-13T13:10:34+00:00",
+                    "product_name": "Weekend bag - sand",
+                    "price": 49.99,
+                    "taxful_price": 49.99,
+                    "base_unit_price": 49.99
+                },
+                {
+                    "base_price": 10.99,
+                    "discount_percentage": 0,
+                    "quantity": 1,
+                    "manufacturer": "Low Tide Media",
+                    "tax_amount": 0,
+                    "product_id": 11169,
+                    "category": "Men's Clothing",
+                    "sku": "ZO0409904099",
+                    "taxless_price": 10.99,
+                    "unit_discount_amount": 0,
+                    "min_price": 5.6,
+                    "_id": "sold_product_567356_11169",
+                    "discount_amount": 0,
+                    "created_on": "2016-12-13T13:10:34+00:00",
+                    "product_name": "Tie - grey",
+                    "price": 10.99,
+                    "taxful_price": 10.99,
+                    "base_unit_price": 10.99
+                }
+            ],
+            "sku": [
+                "ZO0319503195",
+                "ZO0409904099"
+            ],
+            "taxful_total_price": 60.98,
+            "taxless_total_price": 60.98,
+            "total_quantity": 2,
+            "total_unique_products": 2,
+            "type": "order",
+            "user": "jackson",
+            "geoip": {
+                "country_iso_code": "US",
+                "location": {
+                    "lon": -118.2,
+                    "lat": 34.1
+                },
+                "region_name": "California",
+                "continent_name": "North America",
+                "city_name": "Los Angeles"
+            },
+            "event": {
+                "dataset": "sample_ecommerce"
+            }
+        }
+    }
+]
